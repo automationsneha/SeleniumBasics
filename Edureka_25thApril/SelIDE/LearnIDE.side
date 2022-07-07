@@ -1,0 +1,195 @@
+{
+  "id": "d23eab68-07aa-4898-805a-410660a8ffb0",
+  "version": "2.0",
+  "name": "LearnIDE",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "351a52ca-0725-4430-b6ff-49c595d0745c",
+    "name": "SeleniumActions",
+    "commands": [{
+      "id": "7dd56195-7963-4fea-950f-efc52ff3d7d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed25c06f-6c71-4ad9-a008-9334d54fab68",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "636x629",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e3c5477-99d6-431e-b588-d441b1d4322d",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownButton",
+      "targets": [
+        ["id=dropdownButton", "id"],
+        ["linkText=MENU +", "linkText"],
+        ["css=#dropdownButton", "css:finder"],
+        ["xpath=//a[contains(text(),'MENU +')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownButton']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MENU +')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04868520-1226-4ff2-b373-fa62341e1d7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Downloads",
+      "targets": [
+        ["linkText=Downloads", "linkText"],
+        ["css=.nav-item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Downloads')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/downloads')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc89b577-454a-4e7c-b15e-87e6cc6cbe2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.releases-button",
+      "targets": [
+        ["css=.releases-button", "css:finder"],
+        ["xpath=//p[@onclick='showPreviousReleases()']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Previous Releases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "376d0515-e241-4e6a-8453-2321b38e7b27",
+      "comment": "",
+      "command": "click",
+      "target": "id=3.10-expand",
+      "targets": [
+        ["id=3.10-expand", "id"],
+        ["css=#\\33\\.10-expand", "css:finder"],
+        ["xpath=//div[@id='3.10-expand']", "xpath:attributes"],
+        ["xpath=//div[@id='releasesContainer']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "237b223c-d321-4e84-b209-dbbb27786c2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33\\.10-expand > .expand-icon",
+      "targets": [
+        ["css=#\\33\\.10-expand > .expand-icon", "css:finder"],
+        ["xpath=//img[@onclick='openVersion(\"3.10\")']", "xpath:attributes"],
+        ["xpath=//div[@id='3.10-expand']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa17269a-e2ef-47e4-847f-843d10253f46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close-x",
+      "targets": [
+        ["css=.close-x", "css:finder"],
+        ["xpath=//div[@id='releasesContainer']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[20]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "885707ae-7090-4b4b-872d-c8f4464878af",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownButton",
+      "targets": [
+        ["id=dropdownButton", "id"],
+        ["linkText=MENU +", "linkText"],
+        ["css=#dropdownButton", "css:finder"],
+        ["xpath=//a[contains(text(),'MENU +')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownButton']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MENU +')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2f7d05c-f083-424f-baa9-b20d5fbff894",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.nav-item:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35bc5435-3627-41b0-8e93-f915ae589f34",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownButton",
+      "targets": [
+        ["id=dropdownButton", "id"],
+        ["linkText=MENU +", "linkText"],
+        ["css=#dropdownButton", "css:finder"],
+        ["xpath=//a[contains(text(),'MENU +')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownButton']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MENU +')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc702269-1996-4725-baf6-b1ef60eaad88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item > span",
+      "targets": [
+        ["css=.nav-item > span", "css:finder"],
+        ["xpath=//nav[@id='navbar']/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9ba2b00-d208-43e2-91a4-afb54c1acd85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.subnav:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//ul[@id='aboutSubnav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e76f9c79-99fa-40cd-883c-5f27fb1ee2f4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "About Selenium",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "11def8d5-1281-46bf-8e7f-1e3329c28bf5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["351a52ca-0725-4430-b6ff-49c595d0745c"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}

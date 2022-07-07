@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Chrome]">
+  <test thread-count="5" name="Parameterization Example1(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="module5.Parametrization">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="QuitTestCase"/>
+        </methods>
+      </class> <!-- module5.Parametrization -->
+    </classes>
+  </test> <!-- Parameterization Example1(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="module5.Parametrization">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="QuitTestCase"/>
+        </methods>
+      </class> <!-- module5.Parametrization -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Chrome] -->

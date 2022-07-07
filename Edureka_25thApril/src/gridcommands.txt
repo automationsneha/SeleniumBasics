@@ -1,0 +1,20 @@
+Got to the path of the folder where grid files are ready
+cd C:\Users\abhre\Documents\GSync\PCSync\Grid
+
+Hub Command: 
+		java -jar grid.jar -role hub -port 4545
+
+
+Node Commands:
+
+	http://192.168.1.161:4545/grid/register
+
+java -jar grid.jar -role node -hub http://192.168.1.161:4545/grid/register -port 5858
+
+Chrome Setup:
+java -Dwebdriver.chrome.driver="C:\Users\abhre\Documents\GSync\PCSync\Grid\chromedriver.exe" -jar grid.jar -role node -hub http://192.168.1.161:4545/grid/register -browser browserName=chrome
+ -port 5858
+
+Firefox Setup
+java -jar grid.jar -role webdriver -hub http://192.168.1.161:4545/grid/register -browser browserName=firefox -port 5757
+

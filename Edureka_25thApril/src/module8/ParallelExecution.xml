@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GRID Testing" parallel = "tests">
+	<test name="pc1">
+		<parameter name="System" value="pc1"></parameter>
+		<classes>
+			<class name="module8.GRIDTest" />
+		</classes>
+	</test>
+		<test name="pc2">
+		<parameter name="System" value="pc2"></parameter>
+		<classes>
+			<class name="module8.GRIDTest" />
+		</classes>
+	</test>
+</suite>
